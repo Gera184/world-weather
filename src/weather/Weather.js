@@ -10,7 +10,7 @@ export const Weather = () => {
   var [query, setQuery] = useState("");
   var [weather, setWeather] = useState([]);
 
-  var URL = `http://api.openweathermap.org/data/2.5/weather?q=${query},&appid=${API_KEY}`;
+  var URL = `https://api.openweathermap.org/data/2.5/weather?q=${query},&appid=${API_KEY}`;
 
   function data() {
     axios
