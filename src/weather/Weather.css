@@ -1,0 +1,36 @@
+.category-inputc-col {
+  text-align: center;
+  padding: 1%;
+}
+.category-input {
+  height: 150%;
+  width: 20%;
+  border: none;
+  border-radius: 2%;
+  background-image: linear-gradient(
+    -225deg,
+    #dddddd 20%,
+    white 50%,
+    black 150%
+  );
+  color: black;
+  font-size: large;
+  text-align: center;
+}
+.search-col {
+  text-align: center;
+  padding: 1%;
+}
+.search-btn {
+  border-radius: 3%;
+  background-image: linear-gradient(-225deg, silver 2%, white 60%, black 90%);
+  color: black;
+  text-shadow: -1px -1px 1px whitesmoke, 1px 1px 1px black;
+  font-size: large;
+  text-align: center;
+}
+
+.WeatherData {
+  padding-top: 7%;
+}
+

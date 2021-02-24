@@ -1,0 +1,32 @@
+.weather-panel {
+  background-image: url("https://wallpaperaccess.com/full/804379.jpg");
+  background-size: cover;
+  
+  box-shadow: 25px 25px 40px 0px rgba(0, 0, 0, 0.33);
+  color: #fff;
+  overflow: hidden;
+  padding: 1%;
+  text-shadow: -1px -1px 1px black, 0px 0px 2px silver;
+}
+.weather-col {
+  padding: 3%;
+  text-align: center;
+  border-bottom: 1px solid whitesmoke;
+}
+.weather-temp-col {
+  text-align: end;
+}
+.weather-city-col {
+  text-align: start;
+}
+.weather-min-max-temp-col {
+  text-align: end;
+  padding: 5%;
+}
+.weather-data {
+  padding-top: 5%;
+}
+.icons {
+  text-align: center;
+  font-size: 300%;
+}
