@@ -17,6 +17,7 @@ export const Weather = () => {
       .get(URL)
       .then((res) => {
         setWeather(res.data);
+        console.log(weather);
         setQuery("");
       })
       .catch((err) => console.log(err));
@@ -64,6 +65,7 @@ export const Weather = () => {
           </button>
         </Col>
       </Row>
+
       <Row>
         <Col className="WeatherData" md={{ span: 4, offset: 7 }}>
           <WeatherData

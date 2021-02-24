@@ -19,7 +19,7 @@
 }
 .search-col {
   text-align: center;
-  padding: 1%;
+  padding: 2%;
 }
 .search-btn {
   border-radius: 3%;
@@ -29,8 +29,3 @@
   font-size: large;
   text-align: center;
 }
-
-.WeatherData {
-  padding-top: 7%;
-}
-
