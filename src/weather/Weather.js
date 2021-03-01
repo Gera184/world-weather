@@ -7,7 +7,7 @@ import { WeatherData } from "./WeatherData";
 var API_KEY = "0d3b1b46104a89bfa439285f96d04523";
 
 export const Weather = () => {
-  var [query, setQuery] = useState("");
+  var [query, setQuery] = useState("tel-aviv");
   var [weather, setWeather] = useState([]);
 
   var URL = `https://api.openweathermap.org/data/2.5/weather?q=${query.trim()},&appid=${API_KEY}`;
@@ -21,7 +21,14 @@ export const Weather = () => {
         setQuery("");
       })
       .catch((err) => console.log(err));
+
+    if (weather.length === 0) {
+      alert("Explore the weather !");
+    }
   }
+  useEffect(() => {
+    data();
+  }, []);
 
   const hundleOnSubmit = (e) => {
     e.preventDefault();
